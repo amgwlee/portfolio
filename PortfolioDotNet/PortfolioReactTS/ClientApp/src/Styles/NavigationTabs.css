@@ -1,0 +1,31 @@
+.navigation-tabs {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+}
+
+    .navigation-tabs li {
+        display: inline-block;
+        padding: 10px;
+        color: white;
+        cursor: pointer;
+    }
+
+        .navigation-tabs li.active {
+            background-color: #007bff;
+        }
+
+.tab-content {
+    padding: 20px;
+}
+
+.tab {
+    display: none;
+}
+
+    .tab.active {
+        display: block;
+    }

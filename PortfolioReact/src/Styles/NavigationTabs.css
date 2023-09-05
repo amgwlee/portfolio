@@ -1,0 +1,18 @@
+.navigation-tabs {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+    .navigation-tabs button {
+        padding: 10px 20px;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        cursor: pointer;
+    }
+
+        .navigation-tabs button.active {
+            background-color: #007bff;
+            color: white;
+            border: 1px solid #007bff;
+        }
